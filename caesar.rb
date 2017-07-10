@@ -23,9 +23,11 @@ def crypto (str, key)
 puts ""
 end
 
+puts "Hello, please type the string you want to encrypt, followed by the key"
+strcr = gets.chomp
+keyword = gets.to_i
 
-crypto('YYY', 3)
-crypto('aAA', 3)
-crypto('098345 a b', 2)
+crypto (strcr, keyword)
+
 
 
