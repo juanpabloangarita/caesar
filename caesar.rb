@@ -27,7 +27,7 @@ puts "Hello, please type the string you want to encrypt, followed by the key"
 strcr = gets.chomp
 keyword = gets.to_i
 
-crypto (strcr, keyword)
+crypto(strcr, keyword)
 
 
 
